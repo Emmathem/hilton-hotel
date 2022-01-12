@@ -23,7 +23,7 @@ const HeaderComponent = ({ styles }) => {
                     <Countdown title="Remaining Days to my Trip" countObject={countObject} />
                 </div>
                 <div>
-                    <div className="flex text-sm py-5">
+                    <div className="hidden flex text-sm py-5">
                         <p className="px-2">
                             <Link href="/">
                                 <a>My Trips</a>

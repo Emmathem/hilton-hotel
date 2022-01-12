@@ -4,7 +4,7 @@ import { AiFillQuestionCircle, AiOutlineApartment } from 'react-icons/ai';
 const HelpDesk = () => {
     return (
         <>
-            <div className="absolute right-12 bottom-40 text-white">
+            <div className="absolute lg:right-12 right-2 lg:bottom-40 bottom-4 text-white">
                 {/*<h3 className="text-white">Help</h3>*/}
                 <ul>
                     <li className="w-8 h-10 flex items-center justify-center text-xs cursor-pointer pb-5">
