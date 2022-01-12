@@ -13,7 +13,7 @@ const Landing = () => {
             <div className={style.mainBackground}>
                 <div className={style.bgCover} />
                 <HeaderComponent styles={style} />
-                <div className="flex w-full py-4 px-12">
+                <div className="flex w-full py-4 px-12 lg:flex-row flex-col">
                     <SideBarCalendar />
                     <TripCalenderContainer styles={style} />
                     <HelpDesk />
