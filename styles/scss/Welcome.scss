@@ -1,0 +1,68 @@
+.mainBackground {
+  background: url("/bgimage.png") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bgCover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  content: "";
+  background: rgba(0,0,0,0.5);
+}
+
+// Header Styles
+.header {
+  background: #fff;
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+}
+
+.modalHolder {
+  width: 25%;
+  position: relative;
+  //border: 1px solid #ffffff;
+}
+.cir {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50px;
+  overflow: hidden;
+  img {
+    padding: 1rem;
+  }
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  padding: 1.2rem;
+  border-radius: 50px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// ul
+.ul {
+  list-style: none;
+  li a {
+    display: flex;
+  }
+}
